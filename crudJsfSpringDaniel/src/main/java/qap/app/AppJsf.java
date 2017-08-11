@@ -1,5 +1,6 @@
 package qap.app;
 
+import java.io.Serializable;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
@@ -9,7 +10,10 @@ import javax.faces.bean.SessionScoped;
  */
 @ManagedBean(name = "app") // creado en faces-config
 @SessionScoped
-public class AppJsf {
+public class AppJsf implements Serializable{
+    
+    private static final long serialVersionUID = 1L;
+    
     private final AppModel info;
 
     public AppJsf() {

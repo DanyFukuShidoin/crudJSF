@@ -7,6 +7,9 @@ import java.io.Serializable;
  * @author siete
  */
 public class Contacto implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
+    
     //*** AbstractEntity ***
     private Integer id;
     private String propietario;

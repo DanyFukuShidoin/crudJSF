@@ -14,6 +14,8 @@ import javax.faces.bean.SessionScoped;
 @ManagedBean(name="contactos") // creado en faces-config
 @SessionScoped
 public class ContactoMockJsf implements Serializable {
+    
+    private static final long serialVersionUID = 1L;
     // lista
     private final CrudFilterOptions filter;
     private List items;

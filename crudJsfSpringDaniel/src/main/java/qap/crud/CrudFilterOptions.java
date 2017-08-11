@@ -1,4 +1,4 @@
-package qap.mock.contacto;
+package qap.crud;
 
 import java.io.Serializable;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
  * @author christian
  */
 public class CrudFilterOptions implements Serializable {
-    private static final long serialVersionUID = 1L;
+    
     //private String propietario;
     private String modulo;
     private String categoria;
